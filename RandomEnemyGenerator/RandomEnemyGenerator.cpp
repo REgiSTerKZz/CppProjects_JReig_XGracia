@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+const int NUM = 5;
 enum EnemyType{ Zombie,Vampire, Ghost, Witch};
 
 struct Enemy {
@@ -14,13 +14,21 @@ struct Enemy {
 	int health;
 };
 
-EnemyType CreateRandomEnemy() {
+Enemy CreateRandomEnemy() {
 	int a = rand() % 5;
 	switch (a)
 	{
 	case 0:
-
-	default:
+		return 
+		break;
+	case 1:
+		return
+		break;
+	case 2:
+		return 
+		break;
+	case 3:
+		return 
 		break;
 	}
 }
