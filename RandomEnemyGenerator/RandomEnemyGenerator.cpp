@@ -9,9 +9,21 @@ using namespace std;
 enum EnemyType{ Zombie,Vampire, Ghost, Witch};
 
 struct Enemy {
+	EnemyType type;
 	string name;
 	int health;
 };
+
+EnemyType CreateRandomEnemy() {
+	int a = rand() % 5;
+	switch (a)
+	{
+	case 0:
+
+	default:
+		break;
+	}
+}
 
 int main()
 {
