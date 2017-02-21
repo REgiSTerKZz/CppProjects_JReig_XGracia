@@ -74,6 +74,7 @@ int main()
 	}
 	// print el array de los enemies
 	std::cout << "List of Enemies: \n";
+	std::cout << " \n";
 	for (auto &enemy : enemies) // &enemy es el nombre de una variable y enemies es el nombre de la array que queramos recorrer
 	{
 		std::cout << enemy.name <<
